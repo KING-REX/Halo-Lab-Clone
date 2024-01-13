@@ -1,0 +1,83 @@
+@font-face {
+	font-family: "Suisse";
+	src: url("../assets/font-faces/SuisseIntl-Light-WebS.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Suisse";
+	src: url("../assets/font-faces/SuisseIntl-Regular-WebS.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Suisse";
+	src: url("../assets/font-faces/SuisseIntl-Medium-WebS.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Suisse";
+	src: url("../assets/font-faces/SuisseIntl-Bold-WebS.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--primary-purple: #3827c7;
+}
+
+body {
+	font-family: Suisse, sans-serif;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.App {
+	background-color: #02021e;
+	height: 200vh;
+}
+
+.within-edges {
+	width: 85%;
+}
+
+.margin-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-v {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-sb {
+	display: flex;
+	justify-content: space-between;
+}
+
+.o-hidden {
+	overflow: hidden;
+}
