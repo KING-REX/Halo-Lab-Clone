@@ -1,0 +1,45 @@
+.cookie-prompt {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.8rem;
+	padding: 0.6rem 0;
+	width: 100%;
+	background-color: #02021ebf;
+	z-index: 1000;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.cookie-prompt.active {
+	opacity: 1;
+}
+
+.cookie-prompt .primary {
+	font-size: 1.1rem;
+}
+
+.cookie-prompt .primary a {
+	text-decoration: underline;
+}
+
+.cookie-prompt .secondary {
+	display: flex;
+	gap: 1.2rem;
+}
+
+.cookie-prompt .secondary a {
+	padding: 0.9rem 1.4rem;
+	padding-bottom: 1.15rem;
+	border-radius: 5rem;
+}
+
+.cookie-prompt .secondary .deny {
+	background-color: #373653;
+}
+
+.cookie-prompt .secondary .accept {
+	background-color: var(--primary-purple);
+}
